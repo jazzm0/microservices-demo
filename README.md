@@ -17,7 +17,7 @@ If you’re using this demo, please **★Star** this repository to show your int
 
 ## Screenshots
 
-| Home Page                                                                                                         | Checkout Screen                                                                                                    |
+| Home Page                                                                                                         | Checkout Screen                                                                                                     |
 | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | [![Screenshot of store homepage](./docs/img/hipster-shop-frontend-1.png)](./docs/img/hipster-shop-frontend-1.png) | [![Screenshot of checkout screen](./docs/img/hipster-shop-frontend-2.png)](./docs/img/hipster-shop-frontend-2.png) |
 
@@ -76,7 +76,7 @@ We offer three installation methods:
 
 2. **Running on Google Kubernetes Engine (GKE)”** (~30 minutes) You will build,
    upload and deploy the container images to a Kubernetes cluster on Google
-   Cloud.
+   Clouds.
 
 3. **Using pre-built container images:** (~10 minutes, you will still need to
    follow one of the steps above up until `skaffold run` command). With this
