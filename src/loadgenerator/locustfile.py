@@ -47,16 +47,16 @@ def addToCart(l):
         'quantity': random.choice([1,2,3,4,5,10])})
 
 addresses = [
-    ( 'wei.han02@sap.com' ),
-    ( 'matthias.steinwagner@sap.com' ),
-    ( 'wei.liao@sap.com' ),
-    ( 'nico.sauter@sap.com' ),
-    ( 'jan-philipp.esch@sap.com' ),
-    ( 'maximilian.pfister@sap.com' ),
-    ( 'tobias.traxel@sap.com' ),
-    ( 'yuri.petukhin@sap.com' ),
-    ( 'tibor.tarnai@sap.com' ),
-    ( 'elisa.nadine.stelling@sap.com' ) ]
+    ( 'wei.han02@sap.com', 'Wei' ),
+    ( 'matthias.steinwagner@sap.com', 'Matthias' ),
+    ( 'wei.liao@sap.com', 'Wei' ),
+    ( 'nico.sauter@sap.com', 'Nico' ),
+    ( 'jan-philipp.esch@sap.com', 'Jan-Philipp' ),
+    ( 'maximilian.pfister@sap.com', 'Maximilian' ),
+    ( 'tobias.traxel@sap.com', 'Tobias' ),
+    ( 'yuri.petukhin@sap.com', 'Yuri' ),
+    ( 'tibor.tarnai@sap.com', 'Tibor' ),
+    ( 'elisa.nadine.stelling@sap.com', 'Elisa' ) ]
 
 def checkout(l):
     address = random.choice(addresses)
