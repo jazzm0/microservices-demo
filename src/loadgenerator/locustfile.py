@@ -46,10 +46,23 @@ def addToCart(l):
         'product_id': product,
         'quantity': random.choice([1,2,3,4,5,10])})
 
+addresses = [
+    ( 'wei.han02@sap.com' ),
+    ( 'matthias.steinwagner@sap.com' ),
+    ( 'wei.liao@sap.com' ),
+    ( 'nico.sauter@sap.com' ),
+    ( 'jan-philipp.esch@sap.com' ),
+    ( 'maximilian.pfister@sap.com' ),
+    ( 'tobias.traxel@sap.com' ),
+    ( 'yuri.petukhin@sap.com' ),
+    ( 'tibor.tarnai@sap.com' ),
+    ( 'elisa.nadine.stelling@sap.com' ) ]
+
 def checkout(l):
+    address = random.choice(addresses)
     addToCart(l)
     l.client.post("/cart/checkout", {
-        'email': 'someone@example.com',
+        'email': address[0],
         'street_address': '1600 Amphitheatre Parkway',
         'zip_code': '94043',
         'city': 'Mountain View',
