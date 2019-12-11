@@ -58,7 +58,7 @@ func registerDevicesFromOrder(req *pb.PlaceOrderRequest, order *pb.OrderResult, 
 		if errorBody != nil {
 			log.Error(err)
 		}
-		bodyString = string(bodyBytes)
+		bodyString := string(bodyBytes)
 
 		log.Infof("Device registration, http response Body: %+v", bodyString)
 		defer httpResponse.Body.Close()
