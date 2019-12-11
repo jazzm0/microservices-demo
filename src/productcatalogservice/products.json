@@ -10,6 +10,7 @@
                 "units": 12,
                 "nanos": 300000000
             },
+            "colour": "blue"
             "categories": ["toy"]
         },
         {
